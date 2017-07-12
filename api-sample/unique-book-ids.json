@@ -10,7 +10,22 @@
         }
     },
     "paths": {
-        "/bookidentifiers": {}
+        "/bookidentifiers": {},
+        "/warehousecontainers": {
+            "post": {
+                "description": "Create a new container identifier for the supplied list of products or containers"
+            }
+        },
+        "/warehousecontainers/{containerId}": {
+            "get": {
+                "description": "Obtain a listing of the products that this container was created to hold"
+            }
+        },
+        "/bookidentifiers/{bookIdentifierId}": {
+            "get": {
+                "description": "Obtain latest details about the unique book identifier, including ISBN"
+            }
+        }
     },
     "securityDefinitions": {
         "HttpsBasicAuth": {
