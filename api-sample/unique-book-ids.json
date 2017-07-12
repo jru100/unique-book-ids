@@ -25,6 +25,12 @@
             "get": {
                 "description": "Obtain latest details about the unique book identifier, including ISBN"
             }
+        },
+        "/orders": {},
+        "/orders/{invoiceNumber}": {
+            "post": {
+                "description": "Send details of the product identifiers shipped in an order"
+            }
         }
     },
     "securityDefinitions": {
