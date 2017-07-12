@@ -3,5 +3,8 @@
     "info": {
         "title": "Unique Book IDs",
         "description": "Testing using Apicurio"
+    },
+    "paths": {
+        "/bookidentifiers": {}
     }
 }
