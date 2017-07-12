@@ -2,9 +2,20 @@
     "swagger": "2.0",
     "info": {
         "title": "Unique Book IDs",
-        "description": "Testing using Apicurio"
+        "description": "Testing using Apicurio",
+        "contact": {
+            "name": "John Underhill",
+            "url": "",
+            "email": "j.underhill@elsevier.com"
+        }
     },
     "paths": {
         "/bookidentifiers": {}
+    },
+    "securityDefinitions": {
+        "HttpsBasicAuth": {
+            "type": "basic",
+            "description": "All operations require BasicAuth username and password"
+        }
     }
 }
