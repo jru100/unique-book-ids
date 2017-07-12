@@ -2,12 +2,13 @@
     "swagger": "2.0",
     "info": {
         "title": "Unique Book IDs",
-        "description": "Testing using Apicurio",
+        "description": "API for managing unique book identifiers",
         "contact": {
             "name": "John Underhill",
             "url": "",
             "email": "j.underhill@elsevier.com"
-        }
+        },
+        "version": "1.0"
     },
     "paths": {
         "/bookidentifiers": {},
